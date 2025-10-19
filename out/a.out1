@@ -1,0 +1,49 @@
+**** module/scope: sqrt_mult_system_tb
+     Flip-Flops   : 0
+     Logic Gates  : 0
+     LOG[13]: 1 unaccounted
+     LOG[14]: 1 unaccounted
+**** module/scope: sqrt_mult_system_tb.DUT
+     Flip-Flops   : 2
+     Logic Gates  : 20
+     EQUALITY[2]: 3 units
+     LPM[5]: 2 unaccounted
+     LOG[13]: 1 unaccounted
+     LOG[14]: 1 unaccounted
+**** module/scope: sqrt_mult_system_tb.DUT.mult_inst
+     Flip-Flops   : 52
+     Logic Gates  : 261
+     ADDER[3]: 1 units
+     ADDER[16]: 1 units
+     EQUALITY[3]: 2 units
+     MUX[2]: 94 slices
+     LPM[6]: 1 unaccounted
+     LOG[13]: 4 unaccounted
+     LOG[14]: 1 unaccounted
+**** module/scope: sqrt_mult_system_tb.DUT.sqrt_inst
+     Flip-Flops   : 41
+     Logic Gates  : 293
+     EQUALITY[32]: 1 units
+     MAGNITUDE[8]: 1 units
+     MUX[2]: 88 slices
+     LPM[8]: 1 unaccounted
+     LOG[13]: 2 unaccounted
+     LOG[14]: 1 unaccounted
+**** module/scope: sqrt_mult_system_tb.test
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** TOTALS
+     Flip-Flops   : 95
+     Logic Gates  : 574
+     ADDER[3]: 1 units
+     ADDER[16]: 1 units
+     EQUALITY[2]: 3 units
+     EQUALITY[3]: 2 units
+     EQUALITY[32]: 1 units
+     MAGNITUDE[8]: 1 units
+     MUX[2]: 182 slices
+     LPM[5]: 2 unaccounted
+     LPM[6]: 1 unaccounted
+     LPM[8]: 1 unaccounted
+     LOG[13]: 8 unaccounted
+     LOG[14]: 4 unaccounted
